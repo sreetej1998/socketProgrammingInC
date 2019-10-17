@@ -10,18 +10,7 @@
 #include	<arpa/inet.h>
 #include	<fcntl.h>
 #define MAXBUFFER 1024
-void sendstring(
-	int sd,		/*Socket Descriptor*/	 
-	char *fname)	/*Array Containing the string */
-/*************************************************************************/
-{	int n , byteswritten=0 , written ;
-	char buffer[MAXBUFFER];
-	strcpy(buffer , fname);
-	n=strlen(buffer);
-	write(sd,buffer,n);
-	printf("String  : %s sent to server \n",buffer);
 
-}
 int main(int argc,char *argv[]){
 char message[1024],c;
 int socketFd,i=0;
