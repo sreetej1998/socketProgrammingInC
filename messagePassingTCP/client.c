@@ -20,8 +20,7 @@
 
 #include	<fcntl.h>
 
-#
-define MAXBUFFER 1024
+#define MAXBUFFER 1024
 
 int main(int argc, char * argv[]) {
   char message[1024], c;
