@@ -1,25 +1,14 @@
 #include	<stdio.h>
-
 #include	<stdlib.h>
-
 #include	<unistd.h>
-
 #include	<errno.h>
-
 #include	<string.h>
-
 #include	<sys/types.h>
-
 #include	<sys/stat.h>
-
 #include	<sys/socket.h>
-
 #include	<netinet/in.h>
-
 #include	<arpa/inet.h>
-
 #include	<fcntl.h>
-
 #define MAXBUFFER 1024
 
 int main(int argc, char * argv[]) {
